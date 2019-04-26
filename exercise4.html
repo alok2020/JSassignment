@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case. </title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		// var string=prompt("Enter a string ",);
+
+		// var capital=Capitalize(string);
+		// //function Capitalize(string) 
+		// //{
+		// 	//return alert(string.charAt(0).toUpperCase() + string.slice(1));
+
+		// //}
+		// String.prototype.capitalize = function(string) 
+
+		// {
+    	
+  //   	return alert(this.charAt(0).toUpperCase() + this.slice(1));
+
+		// }
+
+		function capitalize(textToCapitalize)	{
+			textToCapitalize = textToCapitalize.charAt(0).toUpperCase() + textToCapitalize.replace(textToCapitalize.charAt(0), '');
+			return textToCapitalize;
+		}
+	</script>
+
+</body>
+</html>
